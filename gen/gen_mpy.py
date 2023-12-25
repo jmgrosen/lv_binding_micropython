@@ -764,7 +764,6 @@ GENMPY_UNUSED STATIC MP_DEFINE_CONST_OBJ_TYPE(
     MP_QSTR_function,
     MP_TYPE_FLAG_BINDS_SELF | MP_TYPE_FLAG_BUILTIN_FUN,
     call, lv_fun_builtin_var_call,
-    unary_op, mp_generic_unary_op,
     buffer, mp_func_get_buffer
 );
 
@@ -773,7 +772,6 @@ GENMPY_UNUSED STATIC MP_DEFINE_CONST_OBJ_TYPE(
     MP_QSTR_function,
     MP_TYPE_FLAG_BUILTIN_FUN,
     call, lv_fun_builtin_var_call,
-    unary_op, mp_generic_unary_op,
     buffer, mp_func_get_buffer
 );
 
